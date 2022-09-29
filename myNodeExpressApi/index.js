@@ -1,4 +1,4 @@
-const fs = require('fs/promises');
+//const fs = require('fs/promises');
 const express = require('express');
 const cors = require('cors');
 const randomSelect = require('lodash');
@@ -20,8 +20,8 @@ app.get('/outfit', (req, res) => {
     });
 });
 
-app.post('/comments', (req, res) => {
+/*app.post('/comments', (req, res) => {
    res.sendStatus('This is working!');
-});
+});*/
 
 app.listen(4000, () => console.log('API Server is running ...'));
